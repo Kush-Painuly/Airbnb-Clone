@@ -1,0 +1,91 @@
+.bnb-location-cards-section {
+}
+
+.cards-wrapper {
+  width: 98%;
+  display: flex;
+  margin: 1rem auto;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding: 0rem 0rem 0.6rem 0rem;
+}
+
+.location-cards {
+  width: 23%;
+  height: 25rem;
+  padding: 1rem 0rem;
+}
+
+.location-cards-img {
+  width: 100%;
+  height: 75%;
+  border-radius: 10px;
+}
+.location-cards-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}
+
+.location-desc {
+  width: 98%;
+  height: 25%;
+}
+
+.location-name-rating strong {
+  font-size: 16px;
+}
+
+.location-name-rating {
+  width: 100%;
+  padding: 0.3rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location-name-rating svg {
+  width: 12px;
+  height: 12px;
+}
+
+.location-booking-desc {
+  opacity: 0.8;
+}
+
+.location-booking-desc2 {
+  width: 100%;
+  padding: 0.3rem 0rem;
+  font-size: 15px;
+}
+
+.explore-more-part {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 3rem 0rem;
+}
+
+.explore-text h3 {
+  font-size: 19px;
+  word-spacing: 0.1rem;
+  line-height: 2rem;
+  font-weight: 900;
+}
+
+.explore-btn button {
+  color: #fff;
+  background-color: #242424;
+  border: 0;
+  padding: 1rem 1.4rem;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.explore-btn button:hover {
+  background-color: #000000;
+}

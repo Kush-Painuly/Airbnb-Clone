@@ -1,0 +1,220 @@
+.header-stripe1 {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-logo {
+  width: 19%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-logo a {
+  width: 40%;
+  height: 48%;
+}
+
+.header-logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.main-navigation {
+  width: 50%;
+  height: 100%;
+}
+
+.nav-list {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-item,
+.nav-item a {
+  text-decoration: none;
+  color: #717171;
+  font-size: 1.07rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 1.3rem;
+}
+
+.nav-item:hover {
+  background-color: rgb(218, 211, 211);
+}
+
+.nav-item.active {
+  color: #333 !important;
+  font-weight: 900;
+}
+
+.icons-block {
+  width: 17%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 1.3rem;
+}
+
+.airbnb-info a {
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+  padding: 0.5rem 1rem;
+  border-radius: 1.3rem;
+}
+
+.airbnb-info a:hover {
+  background-color: rgb(218, 211, 211);
+}
+
+.globe-icon button {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+}
+
+.globe-icon button:hover {
+  background-color: rgb(218, 211, 211);
+  padding: 0.2rem 0.5rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.globe-icon svg {
+  width: 25px;
+  height: 20px;
+}
+
+.login-block {
+  width: 14%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: rem;
+}
+
+.login-block button:hover {
+  box-shadow: 0px 5px 5px rgb(218, 211, 211);
+}
+
+.login-btn {
+  padding: 0.5rem 1.2rem;
+  background-color: transparent;
+  border: 1px solid #717171;
+  border-radius: 2rem;
+}
+
+.list-icon svg {
+  height: 28px;
+  width: 20px;
+}
+
+.user-icon svg {
+  height: 30px;
+  width: 30px;
+}
+
+.header-stripe2 {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-search-block {
+  width: 60%;
+  height: 80%;
+  border: 1px solid #fff;
+  border-radius: 2rem;
+  box-shadow: 0px 3px 8px lightgrey;
+  display: flex;
+  align-items: center;
+}
+
+.search-option-item {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.25rem;
+  padding: 0rem 1.6rem;
+  border-right: 1px solid rgb(222, 222, 222);
+}
+
+.option-item-1,
+.option-item-4 {
+  width: 30%;
+}
+
+.option-item-4 {
+  gap: 0rem;
+  border-right-style: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 0.4rem;
+}
+
+.option-item-4child1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.option-item-2,
+.option-item-3 {
+  width: 20%;
+  gap: 0rem;
+}
+
+.search-option-item label {
+  color: #333;
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.search-option-item input {
+  border: 0;
+  padding: 0.3rem 0;
+  outline: 0;
+}
+
+.search-option-item input::placeholder,
+.search-option-item span {
+  font-size: 16px;
+}
+
+.search-option-item:hover,
+.search-option-item:hover input {
+  background-color: rgb(218, 211, 211);
+  border-right: 0;
+  border-radius: 2rem;
+}
+
+.search-btn {
+  width: 50px;
+  height: 50px;
+  background-color: #ff305c;
+  border-radius: 50%;
+  border: 0;
+}
+
+.search-btn svg {
+  width: 22px;
+  height: 22px;
+  fill: #ffff;
+}

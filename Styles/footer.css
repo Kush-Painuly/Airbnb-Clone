@@ -1,0 +1,169 @@
+.bnb-footer {
+  background-color: #defefe;
+  width: 100%;
+  margin: 1rem auto;
+}
+.footer-block {
+  padding: 0rem 2.5rem;
+}
+.footer-info-1 {
+  width: 100%;
+  padding: 2rem 0.4rem;
+}
+.footer-info-1 strong {
+  font-size: 20px;
+  font-weight: bold;
+}
+.footer-info-2 {
+  width: 100%;
+  padding: 0rem 0rem 0.5rem 0rem;
+}
+.footer-info-2 span {
+  padding: 0.3rem 0.32rem;
+}
+.footer-info-2 a {
+  text-decoration: none;
+  font-size: 0.875rem;
+  padding: 0.2rem 0.1rem;
+  color: #717171;
+  font-weight: 700;
+}
+.footer-info-2 a.active {
+  color: #000000;
+  font-weight: bold;
+}
+.footer-info-3 {
+  width: 100%;
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.info-link-1 {
+  width: 15.4%;
+  padding: 0.4rem 0rem;
+}
+.info-link a {
+  display: block;
+  font-size: 14px;
+  text-decoration: none;
+  color: #222222;
+  font-weight: bold;
+}
+.link-info {
+  display: inline;
+  font-size: 14px;
+  opacity: 0.8;
+}
+.info-show-more a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #222222;
+  font-weight: bold;
+}
+.show-more-symbol svg {
+  width: 12px;
+  height: 12px;
+}
+.main-footer-block {
+  margin: 4rem auto;
+  display: flex;
+  gap: 14rem;
+  align-items: center;
+}
+.main-footer-list-block span {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+.main-footer-list {
+  list-style: none;
+  line-height: 2rem;
+  font-size: 0.875rem;
+}
+.main-footer-list li a {
+  color: #222222;
+  font-size: 0.875rem;
+}
+
+.main-footer-list li a:hover,
+.right-side-lower-footer a:hover {
+  text-decoration: underline;
+}
+
+.last-lower-footer {
+  width: 98%;
+}
+.lower-footer-rule {
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.footer-flex-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right-side-lower-footer {
+  width: 50%;
+  height: 100%;
+}
+
+.right-side-lower-footer span {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  color: rgb(34, 34, 34);
+  font-weight: 500;
+}
+
+.right-side-lower-footer a {
+  color: rgb(34, 34, 34);
+  padding: 0.2rem 0.4rem;
+  font-weight: 300;
+}
+
+.left-side-lower-footer {
+  width: 49%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 1rem;
+}
+
+.left-div1 {
+  width: 17%;
+  display: flex;
+}
+.left-div1 svg {
+  width: 24px;
+  height: 18px;
+}
+.left-div1 span {
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+.left-div1 span:hover,
+.left-div2 span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.left-div2 {
+  width: 10%;
+}
+.left-div2 span {
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+.left-div3 {
+  width: 15%;
+}
+
+.left-div3 svg {
+  width: 27px;
+  height: 27px;
+  padding: 0rem 0.2rem;
+}
+
+.left-div3 svg:hover {
+  cursor: pointer;
+}
