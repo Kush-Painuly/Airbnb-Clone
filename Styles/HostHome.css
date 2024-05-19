@@ -1,0 +1,330 @@
+.main-header {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-image {
+  width: 20%;
+  height: 100%;
+}
+
+.header-image img {
+  width: 25%;
+  height: 100%;
+  padding: 1rem;
+  margin-left: 1rem;
+}
+
+.right-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding-right: 0.7rem;
+}
+
+.without-btn span {
+  font-size: 17px;
+  font: bold;
+  font-weight: 600;
+}
+
+.with-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+}
+
+.with-btn svg {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  fill: #ffffff;
+}
+
+.with-btn button {
+  padding: 1rem 3rem;
+  color: #fff;
+  font-size: 20px;
+  background: linear-gradient(to right, #e61e4d 0%, #e31c5f 50%, #d70466 100%);
+  border: 1px solid #e61e4d;
+  border-radius: 10px;
+}
+
+/* host home inner css */
+.host-home-section {
+  padding: 3rem;
+}
+.main-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.left-bnb-text {
+  width: 30%;
+}
+
+.left-bnb-text .earn {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.bnb-income {
+  text-align: center;
+  font-size: 3.4rem;
+  font-weight: 600;
+}
+
+/* slider css */
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 5px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+/* Style for the slider thumb */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #000000;
+  cursor: pointer;
+}
+
+/* Style for the slider thumb on hover */
+.slider:hover {
+  opacity: 1;
+}
+
+/* Style for the slider thumb on active */
+.slider::-webkit-slider-thumb:hover {
+  background: #d70466;
+}
+/* slider css end */
+
+.left-bnb-para {
+  text-align: center;
+  font-size: 3rem;
+  color: #e9315c;
+  font: bold;
+  font-weight: 600;
+}
+
+.underline-number {
+  font-weight: 600;
+}
+
+.right-bnb-map .right-map {
+  border-radius: 10px;
+}
+
+.left-bnb-inner-text {
+  padding: 1.4rem;
+}
+.left-bnb-estimation {
+  color: rgba(128, 127, 127, 0.925);
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.host-home-search {
+  border: 1px solid rgb(109, 102, 109);
+  padding: 1rem;
+  border-radius: 2rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+.search-text {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Airbnb-setup css */
+
+.airbnb-setup {
+  padding: 6rem 2rem;
+}
+
+.setup-header {
+  padding: 1rem;
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+}
+.setup-image {
+  background-image: url(../assests/airbnb-setup.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80vh;
+}
+
+.setup-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.setup-info-1 {
+  padding: 0.6rem;
+}
+
+.setup-info-1 span {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0.4rem;
+}
+
+/* aircover for hosts css */
+
+.aircover {
+  padding: 5rem;
+}
+.aircover-for-hosts {
+  padding: 2rem;
+}
+
+.aircover-head {
+  text-align: center;
+}
+
+.aircover-head .subhead {
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.aircover-head .subhead span {
+  color: #d70466;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.aircover-head p {
+  font-weight: medium;
+  font-size: 20px;
+}
+
+.aircover-desc-head {
+  padding: 1rem;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 800;
+}
+
+.competitors {
+  margin: 1rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 4rem;
+  border-bottom: 1px solid #c0bfbf;
+}
+
+.airbnb-it p,
+.comp p {
+  font-size: 22px;
+}
+
+.comparison-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #c0bfbf;
+}
+
+.comp-topic {
+  width: 62%;
+}
+
+.comp-topic-head {
+  font-size: 24px;
+  padding: 0.4rem;
+  margin-top: 0.4rem;
+}
+
+.comp-topic p {
+  padding: 1rem;
+}
+
+.show-more-btn {
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.show-more-btn button {
+  padding: 0.4rem 1rem;
+  background: transparent;
+  color: #000000;
+  font-weight: 500;
+  border: 1px solid #000;
+  font-size: 17px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* FAQ SECTION  */
+
+.faq-airbnb {
+  padding: 2rem 0rem;
+  background-color: #ece1e18a;
+}
+
+.faq-head {
+  width: 50%;
+  margin: 3rem 0rem;
+}
+
+.faq-head p,
+.faq-head span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.faq-main {
+  padding: 0rem 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.faq-ques {
+  width: 50%;
+}
+
+.question {
+  padding: 1rem;
+  border-bottom: 1px solid #c0bfbf;
+  height: 4rem;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.show {
+  height: 9rem;
+}
+.question h1 {
+  margin-bottom: 0.4rem;
+}

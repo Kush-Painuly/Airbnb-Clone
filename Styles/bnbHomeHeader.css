@@ -1,0 +1,210 @@
+.main-header {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  gap: 9rem;
+  border-bottom: 1px solid rgb(218, 211, 211);
+}
+
+.header-logo {
+  height: 100%;
+  width: 15%;
+  margin-left: 2rem;
+}
+
+.header-logo a img {
+  width: 71%;
+  height: 59%;
+  margin-top: 0.8rem;
+}
+
+.main-navigation {
+  width: 33%;
+  background-color: #fff;
+
+  display: flex;
+}
+
+.form-to-search {
+  display: flex;
+  align-items: center;
+  position: relative;
+  border: 1px solid rgb(218, 211, 211);
+  padding: 0.2rem;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0px 4px 9px 2px rgb(218, 211, 211);
+}
+
+.input-field1 {
+  width: 32%;
+  background: #fff;
+  border-radius: inherit;
+  position: relative;
+}
+.input-field1 input {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.2rem;
+  outline: none;
+  border: none;
+}
+
+.input-field1 .bold::placeholder {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.separator {
+  width: 1px;
+  height: 36px;
+  background-color: rgb(222, 222, 222);
+  display: inline-block;
+  position: absolute;
+  top: 11%;
+  right: 24%;
+}
+
+.search-btn {
+  width: 35px;
+  height: 35px;
+  /* we can use css variables using a var() */
+  background-color: #ff385c;
+  border-radius: 50%;
+  border: 0;
+  position: absolute;
+  top: 7px;
+  right: 3px;
+}
+
+.search-btn svg {
+  width: 23px;
+  height: 23px;
+  fill: #fff;
+}
+
+/* login-btn */
+.icons-block {
+  width: 17%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.airbnb-info a {
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+  padding: 0.5rem 1rem;
+  border-radius: 1.3rem;
+}
+
+.airbnb-info a:hover {
+  background-color: rgb(218, 211, 211);
+}
+
+.globe-icon button {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+}
+
+.globe-icon button:hover {
+  background-color: rgb(218, 211, 211);
+  padding: 0.2rem 0.5rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.globe-icon svg {
+  width: 25px;
+  height: 20px;
+}
+
+.login-block {
+  width: 14%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  position: relative;
+}
+
+.login-block button:hover {
+  box-shadow: 0px 5px 5px rgb(218, 211, 211);
+}
+
+.login-btn {
+  padding: 0.5rem 1.2rem;
+  background-color: transparent;
+  border: 1px solid #717171;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.list-icon svg {
+  height: 28px;
+  width: 20px;
+}
+
+.user-icon svg {
+  height: 30px;
+  width: 30px;
+}
+
+.signup-modal {
+  width: 240px;
+  height: 10rem;
+  background-color: #ffff;
+  border-radius: 12px;
+  position: absolute;
+  top: 65px;
+  right: 47px;
+  z-index: 10;
+  display: none;
+}
+
+.signup-modal-b1 {
+  padding: 0.7rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  gap: 1.3rem;
+  border-bottom: 0.8px solid #717171;
+}
+
+.signup-modal-b1 button {
+  background: transparent;
+  border: 0;
+  font-size: 16px;
+  line-height: 1.2rem;
+  color: #717171;
+  cursor: pointer;
+  padding: 0rem 0.4rem;
+}
+
+/* .signup-modal-b1 button:hover {
+  background-color: #717171;
+} */
+
+.signup-modal .signup-modal-b1 .active {
+  color: #000000;
+  font-weight: 600;
+}
+
+.signup-modal-b2 {
+  padding: 0.4rem 1rem;
+}
+.signup-modal-b2 div {
+  height: 100%;
+}
+.signup-modal-b2 a {
+  color: #717171;
+  font-size: 16px;
+  line-height: 2rem;
+  padding: 1rem 0rem;
+}

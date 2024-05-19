@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Styles/index.css" />
+    <link rel="icon" href="../assests/airbnb-favicon.ico" />
+    <link rel="stylesheet" href="../Styles/HostHome.css" />
+    <link rel="stylesheet" href="../Styles/footer.css" />
+    <title>Host your home on Airbnb</title>
+  </head>
+  <body>
+    <!-- header start -->
+    <header class="main-header">
+      <div class="header-image">
+        <img src="../assests/airbnb-favicon.png" alt="Airbnb-logo" />
+      </div>
+      <div class="right-navigation">
+        <div class="without-btn">
+          <span>Ready to Airbnb it ?</span>
+        </div>
+        <div class="with-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="#000000"
+            viewBox="0 0 256 256"
+          >
+            <path
+              d="M240,208H224V136l2.34,2.34A8,8,0,0,0,237.66,127L139.31,28.68a16,16,0,0,0-22.62,0L18.34,127a8,8,0,0,0,11.32,11.31L32,136v72H16a8,8,0,0,0,0,16H240a8,8,0,0,0,0-16ZM48,120l80-80,80,80v88H160V152a8,8,0,0,0-8-8H104a8,8,0,0,0-8,8v56H48Zm96,88H112V160h32Z"
+            ></path>
+          </svg>
+          <button>Airbnb Setup</button>
+        </div>
+      </div>
+    </header>
+    <!-- host home inner -->
+    <section class="host-home-section">
+      <div class="main-section">
+        <div class="left-bnb-text">
+          <p class="left-bnb-para">Airbnb it.</p>
+          <p class="earn">You could earn</p>
+          <br />
+          <p class="bnb-income"></p>
+          <br />
+          <input
+            type="range"
+            min="1"
+            max="100"
+            value="1"
+            class="slider"
+            id="mySlider"
+          />
+          <p class="calculated-prices">
+            <u class="underline-number"></u>
+            at an estimated &#8377; 4,421 per nights
+          </p>
+          <div class="left-bnb-inner-text">
+            <span class="left-bnb-estimation"
+              >Learn how we estimate your earnings
+            </span>
+          </div>
+          <div class="host-home-search">
+            <div class="host-svg">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="28"
+                height="28"
+                fill="#d3d"
+                viewBox="0 0 256 256"
+              >
+                <path
+                  d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                ></path>
+              </svg>
+            </div>
+            <div class="host-text">
+              <span class="search-text">New Delhi</span>
+              <br />
+              <span class="search-desc-1"> Entire Place || </span>
+              <span class="search-desc-2">2 bedroom</span>
+            </div>
+          </div>
+        </div>
+        <div class="right-bnb-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d87897.14300257404!2d78.02696670774995!3d27.156294618396995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sairbnb!5e0!3m2!1sen!2sin!4v1715845494095!5m2!1sen!2sin"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            class="right-map"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <!-- Airbnb-Setup  -->
+    <section class="airbnb-setup">
+      <h1 class="setup-header">Airbnb it easily with Airbnb Setup</h1>
+      <div class="setup-image"></div>
+      <div class="setup-info">
+        <div class="setup-info-1">
+          <span>One-to-one guidance with superhost</span>
+          <p>
+            We’ll match you with a Superhost in your area, who’ll guide you from
+            your first question to your first guest – by phone, video call or
+            chat.
+          </p>
+        </div>
+        <div class="setup-info-1">
+          <span>Experienced guest for your first booking</span>
+          <p>
+            For your first booking, you can choose to welcome an experienced
+            guest who has at least three stays and a good track record on
+            Airbnb.
+          </p>
+        </div>
+        <div class="setup-info-1">
+          <span>Specialised support from Airbnb</span>
+          <p>
+            New Hosts get one-tap access to specially trained Community Support
+            agents who can help with everything from account issues to billing
+            support.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Aircover for hosts  -->
+    <section class="aircover">
+      <div class="aircover-for-hosts">
+        <div class="aircover-head">
+          <p class="subhead"><span>air</span>cover</p>
+          <p>for hosts</p>
+        </div>
+        <div class="aircover-desc">
+          <h2 class="aircover-desc-head">
+            Airbnb it with top-to-bottom protection
+          </h2>
+        </div>
+        <div class="competitors">
+          <div class="airbnb-it">
+            <p>Airbnb</p>
+          </div>
+          <div class="comp">
+            <p>Competitors</p>
+          </div>
+        </div>
+        <div class="comparison-1">
+          <div class="comp-topic">
+            <h3 class="comp-topic-head">Guest identity verification</h3>
+            <br />
+            <p>
+              Our comprehensive verification system checks details such as name,
+              address, government ID and more to confirm the identity of guests
+              who book on Airbnb.
+            </p>
+          </div>
+          <div class="airbnb-check">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              fill="#00FF00"
+              viewBox="0 0 256 256"
+            >
+              <path
+                d="M243.31,90.91l-128.4,128.4a16,16,0,0,1-22.62,0l-71.62-72a16,16,0,0,1,0-22.61l20-20a16,16,0,0,1,22.58,0L104,144.22l96.76-95.57a16,16,0,0,1,22.59,0l19.95,19.54A16,16,0,0,1,243.31,90.91Z"
+              ></path>
+            </svg>
+          </div>
+          <div class="comp-check">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              fill="#00FF00"
+              viewBox="0 0 256 256"
+            >
+              <path
+                d="M243.31,90.91l-128.4,128.4a16,16,0,0,1-22.62,0l-71.62-72a16,16,0,0,1,0-22.61l20-20a16,16,0,0,1,22.58,0L104,144.22l96.76-95.57a16,16,0,0,1,22.59,0l19.95,19.54A16,16,0,0,1,243.31,90.91Z"
+              ></path>
+            </svg>
+          </div>
+        </div>
+        <div class="comparison-1">
+          <div class="comp-topic">
+            <h3 class="comp-topic-head">Reservation screening</h3>
+            <br />
+            <p>
+              Our proprietary technology analyses hundreds of factors in each
+              reservation and blocks certain bookings that show a high risk for
+              disruptive parties and property damage
+            </p>
+          </div>
+          <div class="airbnb-check">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              fill="#00FF00"
+              viewBox="0 0 256 256"
+            >
+              <path
+                d="M243.31,90.91l-128.4,128.4a16,16,0,0,1-22.62,0l-71.62-72a16,16,0,0,1,0-22.61l20-20a16,16,0,0,1,22.58,0L104,144.22l96.76-95.57a16,16,0,0,1,22.59,0l19.95,19.54A16,16,0,0,1,243.31,90.91Z"
+              ></path>
+            </svg>
+          </div>
+          <div class="comp-check">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              fill="#ff0000"
+              viewBox="0 0 256 256"
+            >
+              <path
+                d="M215,219.85a8,8,0,0,1-7,4.15H160a8,8,0,0,1-6.75-3.71l-40.49-63.63L53.92,221.38a8,8,0,0,1-11.84-10.76l61.77-68L41.25,44.3A8,8,0,0,1,48,32H96a8,8,0,0,1,6.75,3.71l40.49,63.63,58.84-64.72a8,8,0,0,1,11.84,10.76l-61.77,67.95,62.6,98.38A8,8,0,0,1,215,219.85Z"
+              ></path>
+            </svg>
+          </div>
+        </div>
+        <div class="comparison-1">
+          <div class="comp-topic">
+            <h3 class="comp-topic-head">$3m damage protection</h3>
+            <br />
+            <p>
+              Airbnb reimburses you for damage caused by guests to your home and
+              belongings and includes these specialised protections:
+            </p>
+          </div>
+          <div class="airbnb-check">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              fill="#00FF00"
+              viewBox="0 0 256 256"
+            >
+              <path
+                d="M243.31,90.91l-128.4,128.4a16,16,0,0,1-22.62,0l-71.62-72a16,16,0,0,1,0-22.61l20-20a16,16,0,0,1,22.58,0L104,144.22l96.76-95.57a16,16,0,0,1,22.59,0l19.95,19.54A16,16,0,0,1,243.31,90.91Z"
+              ></path>
+            </svg>
+          </div>
+          <div class="comp-check">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              fill="#ff0000"
+              viewBox="0 0 256 256"
+            >
+              <path
+                d="M215,219.85a8,8,0,0,1-7,4.15H160a8,8,0,0,1-6.75-3.71l-40.49-63.63L53.92,221.38a8,8,0,0,1-11.84-10.76l61.77-68L41.25,44.3A8,8,0,0,1,48,32H96a8,8,0,0,1,6.75,3.71l40.49,63.63,58.84-64.72a8,8,0,0,1,11.84,10.76l-61.77,67.95,62.6,98.38A8,8,0,0,1,215,219.85Z"
+              ></path>
+            </svg>
+          </div>
+        </div>
+        <div class="comparison-1">
+          <div class="comp-topic">
+            <h3 class="comp-topic-head">$1m USD liability insurance</h3>
+            <br />
+            <p>
+              You’re protected in the rare event that a guest gets hurt or their
+              belongings are damaged or stolen.
+            </p>
+          </div>
+          <div class="airbnb-check">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              fill="#00FF00"
+              viewBox="0 0 256 256"
+            >
+              <path
+                d="M243.31,90.91l-128.4,128.4a16,16,0,0,1-22.62,0l-71.62-72a16,16,0,0,1,0-22.61l20-20a16,16,0,0,1,22.58,0L104,144.22l96.76-95.57a16,16,0,0,1,22.59,0l19.95,19.54A16,16,0,0,1,243.31,90.91Z"
+              ></path>
+            </svg>
+          </div>
+          <div class="comp-check">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              fill="#00FF00"
+              viewBox="0 0 256 256"
+            >
+              <path
+                d="M243.31,90.91l-128.4,128.4a16,16,0,0,1-22.62,0l-71.62-72a16,16,0,0,1,0-22.61l20-20a16,16,0,0,1,22.58,0L104,144.22l96.76-95.57a16,16,0,0,1,22.59,0l19.95,19.54A16,16,0,0,1,243.31,90.91Z"
+              ></path>
+            </svg>
+          </div>
+        </div>
+        <div class="comparison-1">
+          <div class="comp-topic">
+            <h3 class="comp-topic-head">24-hour safety line</h3>
+            <br />
+            <p>
+              If you ever feel unsafe, our app provides one-tap access to
+              specially trained safety agents, day or night.
+            </p>
+          </div>
+          <div class="airbnb-check">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              fill="#00FF00"
+              viewBox="0 0 256 256"
+            >
+              <path
+                d="M243.31,90.91l-128.4,128.4a16,16,0,0,1-22.62,0l-71.62-72a16,16,0,0,1,0-22.61l20-20a16,16,0,0,1,22.58,0L104,144.22l96.76-95.57a16,16,0,0,1,22.59,0l19.95,19.54A16,16,0,0,1,243.31,90.91Z"
+              ></path>
+            </svg>
+          </div>
+          <div class="comp-check">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              fill="#ff0000"
+              viewBox="0 0 256 256"
+            >
+              <path
+                d="M215,219.85a8,8,0,0,1-7,4.15H160a8,8,0,0,1-6.75-3.71l-40.49-63.63L53.92,221.38a8,8,0,0,1-11.84-10.76l61.77-68L41.25,44.3A8,8,0,0,1,48,32H96a8,8,0,0,1,6.75,3.71l40.49,63.63,58.84-64.72a8,8,0,0,1,11.84,10.76l-61.77,67.95,62.6,98.38A8,8,0,0,1,215,219.85Z"
+              ></path>
+            </svg>
+          </div>
+        </div>
+        <div class="show-more-btn">
+          <button>Learn more</button>
+        </div>
+      </div>
+    </section>
+    <!-- FAQ Section  -->
+    <section class="faq-airbnb">
+      <div class="faq-main">
+        <div class="faq-head">
+          <p>Your Questions</p>
+          <span>answered,</span>
+        </div>
+        <div class="faq-ques">
+          <div class="question">
+            <h1 onclick="showBnbPortal(event)">
+              Is my place right for Airbnb?
+            </h1>
+            <p>
+              Airbnb guests are interested in all kinds of places. We have
+              listings for tiny homes, cabins, tree houses and more. Even a
+              spare room can be a great place to stay
+            </p>
+          </div>
+          <div class="question">
+            <h1 onclick="showBnbPortal(event)">
+              Do I have to host all the time?
+            </h1>
+            <p>
+              Not at all – you control your calendar. You can host once a year,
+              a few nights a month or more often.
+            </p>
+          </div>
+          <div class="question">
+            <h1 onclick="showBnbPortal(event)">
+              How much should I interact with guests?
+            </h1>
+            <p>
+              It’s up to you. Some Hosts prefer to message guests only at key
+              moments – like sending a short note when they check in – while
+              others also enjoy meeting their guests in person. You’ll find a
+              style that works for you and your guests.
+            </p>
+          </div>
+          <div class="question">
+            <h1 onclick="showBnbPortal(event)">
+              Any tips on being a great Airbnb Host?
+            </h1>
+            <p>
+              Getting the basics down goes a long way. Keep your place clean,
+              respond to guests promptly and provide necessary amenities like
+              fresh towels. Some Hosts like adding a personal touch such as
+              putting out fresh flowers or sharing a list of local places to
+              explore – but it’s not required.
+            </p>
+          </div>
+          <div class="question">
+            <h1 onclick="showBnbPortal(event)">What are Airbnb’s fees?</h1>
+            <p>
+              Airbnb typically collects a flat service fee of 3% of the
+              reservation subtotal when you get paid. We also collect a fee from
+              guests when they book. In many areas Airbnb also collects and pays
+              sales and tourism taxes automatically on your behalf.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bnb-footer">
+      <div class="footer-block">
+        <div class="footer-info-1">
+          <p><strong>Inspirations for future gateways</strong></p>
+        </div>
+        <div class="footer-info-2">
+          <span>
+            <a href="#" class="active">Popular</a>
+          </span>
+          <span>
+            <a href="#">Art&Culture</a>
+          </span>
+          <span>
+            <a href="#">Outdoors</a>
+          </span>
+          <span>
+            <a href="#">Mountains</a>
+          </span>
+          <span>
+            <a href="#">Beach</a>
+          </span>
+          <span>
+            <a href="#">Unique stays</a>
+          </span>
+          <span>
+            <a href="#">Categories</a>
+          </span>
+          <span>
+            <a href="#">Things to do</a>
+          </span>
+        </div>
+        <hr />
+        <div class="footer-info-3">
+          <div class="info-link-1">
+            <span class="info-link">
+              <a href="#">Canmore</a>
+            </span>
+            <span class="link-info">Apartment rentals</span>
+          </div>
+          <div class="info-link-1">
+            <span class="info-link">
+              <a href="#">Benalmadena</a>
+            </span>
+            <span class="link-info">Beach house rentals</span>
+          </div>
+          <div class="info-link-1">
+            <span class="info-link">
+              <a href="#">Marbella</a>
+            </span>
+            <span class="link-info">Holiday rentals</span>
+          </div>
+          <div class="info-link-1">
+            <span class="info-link">
+              <a href="#">Mijas</a>
+            </span>
+            <span class="link-info">Holiday rentals</span>
+          </div>
+          <div class="info-link-1">
+            <span class="info-link">
+              <a href="#">Prescott</a>
+            </span>
+            <span class="link-info">Holiday rentals</span>
+          </div>
+          <div class="info-link-1">
+            <span class="info-link">
+              <a href="#">Scottsdale</a>
+            </span>
+            <span class="link-info">House rentals</span>
+          </div>
+          <div class="info-link-1">
+            <span class="info-link">
+              <a href="#">Tucson</a>
+            </span>
+            <span class="link-info">Pet-Friendly rentals</span>
+          </div>
+          <div class="info-link-1">
+            <span class="info-link">
+              <a href="#">Jasper</a>
+            </span>
+            <span class="link-info">Cabin rentals</span>
+          </div>
+          <div class="info-link-1">
+            <span class="info-link">
+              <a href="#">Mountain View</a>
+            </span>
+            <span class="link-info">House rentals</span>
+          </div>
+          <div class="info-link-1">
+            <span class="info-link">
+              <a href="#">Devonport</a>
+            </span>
+            <span class="link-info">Holiday rentals</span>
+          </div>
+          <div class="info-link-1">
+            <span class="info-link">
+              <a href="#">Mallacoota</a>
+            </span>
+            <span class="link-info">Holiday rentals</span>
+          </div>
+          <div class="info-link-1">
+            <span class="info-link">
+              <a href="#">lbiza</a>
+            </span>
+            <span class="link-info">Holiday rentals</span>
+          </div>
+          <div class="info-link-1">
+            <span class="info-link">
+              <a href="#">Anaheim</a>
+            </span>
+            <span class="link-info">Family-Friendly rentals</span>
+          </div>
+          <div class="info-link-1">
+            <span class="info-link">
+              <a href="#">Monterey</a>
+            </span>
+            <span class="link-info">House rentals</span>
+          </div>
+          <div class="info-link-1">
+            <span class="info-link">
+              <a href="#">Paso Robles</a>
+            </span>
+            <span class="link-info">House rentals</span>
+          </div>
+          <div class="info-link-1">
+            <span class="info-link">
+              <a href="#">Santa Barbara</a>
+            </span>
+            <span class="link-info">House rentals</span>
+          </div>
+          <div class="info-link-1">
+            <span class="info-link">
+              <a href="#">Sonoma</a>
+            </span>
+            <span class="link-info">Beach house rentals</span>
+          </div>
+          <div class="info-link-1">
+            <span class="info-show-more">
+              <a href="#">Show More</a>
+            </span>
+            <span class="show-more-symbol">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="#000000"
+                viewBox="0 0 256 256"
+              >
+                <path
+                  d="M205.66,149.66l-72,72a8,8,0,0,1-11.32,0l-72-72a8,8,0,0,1,11.32-11.32L120,196.69V40a8,8,0,0,1,16,0V196.69l58.34-58.35a8,8,0,0,1,11.32,11.32Z"
+                ></path>
+              </svg>
+            </span>
+          </div>
+        </div>
+        <hr />
+        <div class="main-footer-block">
+          <div class="main-footer-list-block">
+            <span>Support</span>
+            <ul class="main-footer-list">
+              <li><a href="#">Help-Center</a></li>
+              <li><a href="#">AirCover</a></li>
+              <li><a href="#">Anit-discrimination</a></li>
+              <li><a href="#">Disability Support</a></li>
+              <li><a href="#">Cancellation Options</a></li>
+              <li><a href="#">Report Neighbourhood Concern</a></li>
+            </ul>
+          </div>
+          <div class="main-footer-list-block">
+            <span>Hosting</span>
+            <ul class="main-footer-list">
+              <li><a href="#">Airbnb your home</a></li>
+              <li><a href="#">AirCover for Hosts</a></li>
+              <li><a href="#">Hosting resources</a></li>
+              <li><a href="#">Community Forum</a></li>
+              <li><a href="#">Hosting responsibly</a></li>
+            </ul>
+          </div>
+          <div class="main-footer-list-block">
+            <span>Airbnb</span>
+            <ul class="main-footer-list">
+              <li><a href="#">Newsroom</a></li>
+              <li><a href="#">New features</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Investors</a></li>
+              <li><a href="#">Airbnb.org emergency stays</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="last-lower-footer">
+          <div class="lower-footer-rule">
+            <hr />
+          </div>
+          <div class="footer-flex-block">
+            <div class="right-side-lower-footer">
+              <span>&#169; 2024 Airbnb,Inc</span>
+              <span>
+                <a href="#">Privacy</a>
+              </span>
+              <span>
+                <a href="#">Terms</a>
+              </span>
+              <span>
+                <a href="#">Sitemap</a>
+              </span>
+              <span>
+                <a href="#">Company details</a>
+              </span>
+            </div>
+            <div class="left-side-lower-footer">
+              <div class="left-div1">
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24ZM101.63,168h52.74C149,186.34,140,202.87,128,215.89,116,202.87,107,186.34,101.63,168ZM98,152a145.72,145.72,0,0,1,0-48h60a145.72,145.72,0,0,1,0,48ZM40,128a87.61,87.61,0,0,1,3.33-24H81.79a161.79,161.79,0,0,0,0,48H43.33A87.61,87.61,0,0,1,40,128ZM154.37,88H101.63C107,69.66,116,53.13,128,40.11,140,53.13,149,69.66,154.37,88Zm19.84,16h38.46a88.15,88.15,0,0,1,0,48H174.21a161.79,161.79,0,0,0,0-48Zm32.16-16H170.94a142.39,142.39,0,0,0-20.26-45A88.37,88.37,0,0,1,206.37,88ZM105.32,43A142.39,142.39,0,0,0,85.06,88H49.63A88.37,88.37,0,0,1,105.32,43ZM49.63,168H85.06a142.39,142.39,0,0,0,20.26,45A88.37,88.37,0,0,1,49.63,168Zm101.05,45a142.39,142.39,0,0,0,20.26-45h35.43A88.37,88.37,0,0,1,150.68,213Z"
+                    ></path>
+                  </svg>
+                </span>
+                <span>English(IN)</span>
+              </div>
+              <div class="left-div2">
+                <span>&#8377; INR</span>
+              </div>
+              <div class="left-div3">
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M232,128a104.16,104.16,0,0,1-91.55,103.26,4,4,0,0,1-4.45-4V152h24a8,8,0,0,0,8-8.53,8.17,8.17,0,0,0-8.25-7.47H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,8-8.53A8.17,8.17,0,0,0,167.73,80H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0-8,8.53A8.17,8.17,0,0,0,96.27,152H120v75.28a4,4,0,0,1-4.44,4A104.15,104.15,0,0,1,24.07,124.09c2-54,45.74-97.9,99.78-100A104.12,104.12,0,0,1,232,128Z"
+                    ></path>
+                  </svg>
+                </span>
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M245.66,77.66l-29.9,29.9C209.72,177.58,150.67,232,80,232c-14.52,0-26.49-2.3-35.58-6.84-7.33-3.67-10.33-7.6-11.08-8.72a8,8,0,0,1,3.85-11.93c.26-.1,24.24-9.31,39.47-26.84a110.93,110.93,0,0,1-21.88-24.2c-12.4-18.41-26.28-50.39-22-98.18a8,8,0,0,1,13.65-4.92c.35.35,33.28,33.1,73.54,43.72V88a47.87,47.87,0,0,1,14.36-34.3A46.87,46.87,0,0,1,168.1,40a48.66,48.66,0,0,1,41.47,24H240a8,8,0,0,1,5.66,13.66Z"
+                    ></path>
+                  </svg>
+                </span>
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24ZM128,176a48,48,0,1,1,48-48A48.05,48.05,0,0,1,128,176Zm60-96a12,12,0,1,1,12-12A12,12,0,0,1,188,80Zm-28,48a32,32,0,1,1-32-32A32,32,0,0,1,160,128Z"
+                    ></path>
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="../js/hostHome.js"></script>
+  </body>
+</html>

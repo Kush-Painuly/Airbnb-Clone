@@ -1,3 +1,11 @@
+.main-header {
+  background-color: #fff;
+  padding-bottom: 0.4rem;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
 .header-stripe1 {
   height: 4rem;
   display: flex;
@@ -105,7 +113,8 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: rem;
+  gap: 0.4rem;
+  position: relative;
 }
 
 .login-block button:hover {
@@ -117,6 +126,7 @@ a {
   background-color: transparent;
   border: 1px solid #717171;
   border-radius: 2rem;
+  cursor: pointer;
 }
 
 .list-icon svg {
@@ -130,7 +140,9 @@ a {
 }
 
 .header-stripe2 {
-  height: 5rem;
+  height: 6rem;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -153,7 +165,23 @@ a {
   justify-content: center;
   gap: 0.25rem;
   padding: 0rem 1.6rem;
-  border-right: 1px solid rgb(222, 222, 222);
+  position: relative;
+  /* border-right: 1px solid rgb(222, 222, 222); */
+}
+
+.search-option-item .separator {
+  position: absolute;
+  right: 0;
+  width: 1px;
+  height: 30px;
+  background-color: rgb(222, 222, 222);
+  display: inline-block;
+}
+
+.search-option-item:hover .separator {
+  display: none;
+
+  /* visibility: hidden; */
 }
 
 .option-item-1,
@@ -201,14 +229,14 @@ a {
 .search-option-item:hover,
 .search-option-item:hover input {
   background-color: rgb(218, 211, 211);
-  border-right: 0;
   border-radius: 2rem;
 }
 
 .search-btn {
   width: 50px;
   height: 50px;
-  background-color: #ff305c;
+  /* we can use css variables using a var() */
+  background-color: var(--pink);
   border-radius: 50%;
   border: 0;
 }
@@ -217,4 +245,215 @@ a {
   width: 22px;
   height: 22px;
   fill: #ffff;
+}
+
+.signup-modal {
+  width: 240px;
+  height: 10rem;
+  background-color: #ffff;
+  border-radius: 12px;
+  position: absolute;
+  top: 65px;
+  right: 47px;
+  z-index: 10;
+  display: none;
+}
+
+.signup-modal-b1 {
+  padding: 0.7rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  gap: 1.3rem;
+  border-bottom: 0.8px solid #717171;
+}
+
+.signup-modal-b1 button {
+  background: transparent;
+  border: 0;
+  font-size: 16px;
+  line-height: 1.2rem;
+  color: #717171;
+  cursor: pointer;
+  padding: 0rem 0.4rem;
+}
+
+/* .signup-modal-b1 button:hover {
+  background-color: #717171;
+} */
+
+.signup-modal .signup-modal-b1 .active {
+  color: #000000;
+  font-weight: 600;
+}
+
+.signup-modal-b2 {
+  padding: 0.4rem 1rem;
+}
+.signup-modal-b2 div {
+  height: 100%;
+}
+.signup-modal-b2 a {
+  color: #717171;
+  font-size: 16px;
+  line-height: 2rem;
+  padding: 1rem 0rem;
+}
+
+/* slider-menu-options-css */
+
+.filters-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filter-option-slider {
+  width: 75%;
+  padding: 0.6rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.menu-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.2rem;
+}
+
+.menu-1:hover svg {
+  fill: #000000;
+}
+.menu-1:hover p {
+  color: #000000;
+}
+.menu-1:hover {
+  border-bottom: 2px solid rgba(189, 179, 179, 0.5);
+}
+
+.menu-1.active {
+  border-bottom: 2px solid #000000;
+}
+
+.svg {
+  padding: 0rem 1rem;
+}
+
+.svg svg {
+  fill: #717171;
+}
+
+.silder-text p {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 2.2rem;
+  color: #717171;
+  cursor: pointer;
+}
+
+.slider-button button {
+  background-color: #fff;
+  border-radius: 3rem;
+  border: 1px solid #505050;
+  padding: 0.3rem;
+  cursor: pointer;
+}
+
+.slider-button button:hover {
+  border-radius: 2rem;
+  box-shadow: 0px 5px 5px rgba(189, 179, 179, 0.5);
+}
+
+.filter-options-buttons {
+  width: 30%;
+  padding: 0.6rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 0.5rem;
+}
+
+.filter-option-1 button,
+.filter-option-2 button {
+  background-color: #fff;
+  border: 0;
+  border: 0.4px solid #717171;
+  padding: 0.6rem 0.9rem;
+  border-radius: 0.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+}
+
+.filter-option-1 span,
+.filter-option-2 span {
+  font-size: 12px;
+  font-weight: bold;
+  color: #000000;
+}
+
+/* media queries */
+@media (max-width: 1078px) {
+  .filter-option-slider {
+    gap: 0.4rem;
+  }
+}
+
+/* tablet-header */
+/*On max-width 743px */
+
+.tablet-space {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0rem 1rem;
+  display: none;
+}
+
+.inputfield-1 {
+  padding: 1rem;
+  width: 80%;
+}
+
+input#anywhere {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 1px solid grey;
+  outline: none;
+}
+
+.inputfield-1 input::placeholder {
+  font-size: 17px;
+}
+
+.tablet-filter {
+  width: 20%;
+  padding: 1rem;
+}
+
+.tablet-filter svg {
+  width: 30px;
+  height: 30px;
+  border: 1px solid grey;
+  border-radius: 50%;
+  padding: 0rem 0.3rem;
+}
+
+@media (max-width: 743px) {
+  .tablet-space {
+    display: flex;
+  }
+  .header-stripe1,
+  .header-stripe2 {
+    display: none;
+  }
+  .filter-option-slider {
+    padding: 0rem 2rem;
+  }
 }

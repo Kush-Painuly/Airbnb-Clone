@@ -1,0 +1,153 @@
+.login-modal {
+  overflow-y: scroll;
+}
+.modal-header {
+  height: 10%;
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+  padding: 0.7rem;
+  position: sticky;
+  top: 0;
+  border-bottom: 0.4px solid lightgrey;
+  background: #fff;
+}
+
+.modal-header svg {
+  cursor: pointer;
+}
+
+.modal-header svg:hover {
+  border-radius: 4rem;
+  background-color: #d8d8d8;
+  padding: 0.1rem;
+}
+
+.modal-header h3 {
+  font-size: 15px;
+  line-height: 1.2rem;
+  padding: 0.4rem;
+  font-weight: bold;
+}
+
+.welcome-bnb-form {
+  height: 60%;
+  padding: 1rem;
+}
+
+.welcome-text {
+  padding: 0.7rem 0rem;
+}
+
+.welcome-text h3 {
+  font-size: 21px;
+  line-height: 2.4rem;
+  font-weight: bold;
+}
+
+.signup-form {
+  height: 40%;
+}
+
+.signup-form select {
+  width: 95%;
+  padding: 1rem;
+  border-radius: 12px 12px 0 0;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.9);
+  border-color: rgb(223, 220, 220);
+}
+
+.signup-form input {
+  width: 95%;
+  padding: 1rem;
+  border-radius: 0 0 12px 12px;
+  outline: 0;
+  border-top-style: none;
+  border-color: rgb(223, 220, 220);
+}
+
+.signup-form input::placeholder {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+}
+
+.small-signup-info {
+  padding: 0.4rem 0.3rem;
+}
+.small-signup-info p {
+  font-size: 10px;
+}
+.small-signup-info a {
+  font-size: 10px;
+  text-decoration: underline;
+  font-weight: 800;
+  color: black;
+}
+
+.signup-modal-btn {
+  width: 95%;
+  padding: 0.5rem 0rem;
+}
+
+.signup-modal-btn button {
+  background: linear-gradient(#c42626, #9da4ee);
+  border: 0;
+  padding: 0.6rem 12.3rem;
+  border-radius: 0.5rem;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.modal-scales {
+  padding: 0.5rem;
+}
+
+.modal-scales span::before {
+  content: "";
+  width: 45%;
+  height: 0.4px;
+  display: block;
+  background-color: #797979;
+}
+
+.modal-scales span {
+  color: #797979;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.modal-scales span::after {
+  content: "";
+  width: 45%;
+  height: 0.4px;
+  display: block;
+  background-color: #797979;
+}
+
+.links {
+  padding: 0.2rem;
+  height: 50%;
+}
+.link-svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  border: 1px solid black;
+  border-radius: 0.4rem;
+  /* padding: 0.4rem; */
+  margin-bottom: 1rem;
+}
+.link-svg a {
+  color: #333;
+  padding: 0.7rem;
+  font-weight: bold;
+}
+
+.registration-links-space {
+  padding: 0.7rem;
+}

@@ -167,3 +167,9 @@
 .left-div3 svg:hover {
   cursor: pointer;
 }
+
+@media screen and (max-width: 848px) {
+  .footer-info-3 {
+    gap: 0.7rem;
+  }
+}
